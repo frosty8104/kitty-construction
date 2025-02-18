@@ -22,6 +22,10 @@ h1 {
 h2 {
     font-size: 1.25em;
 }
+p {
+    font-size: 1em;
+    text-align: center;
+}
 header,
 footer,
 main {
@@ -33,7 +37,7 @@ main {
 }
 /***** HEADER *****/
 header {
-    padding: 5% 0;
+    padding: 2% 0;
 }
 nav {
     width: 60%;
@@ -151,7 +155,7 @@ h2 span:nth-child(16) {
 /***** FOOTER *****/
 /***** MAIN KITTIES *****/
 main {
-    padding: 5% 0 5% 0;
+    padding: 2% 0;
 }
 #design,
 #html,
