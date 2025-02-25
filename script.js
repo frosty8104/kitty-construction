@@ -9,7 +9,7 @@ const whitespace = document.querySelector(".space");
 alert("Wireframing is like drawing blueprints for you house. You can plan logo placement, along with images, headings, and paragraphs.");
 alert("Colour theory tells you what colours invite or connect to what emotions. This will help you pick a colour scheme of two, maximum three colours to use for your website and visual brand. Colour theory resembles choosing paint colours for your house.");
 alert("Typography is the pairing of fonts for the best visual presentation of your website, business card, and other promotional pieces that help your company stand out. Typography is like decorating your house, whether it be wallpaper or otherwise.");
-alert("Whitespace gives elements breathing space. Whitespace resembles space between walls for living room, bathroom, bedroom, and any other room where you have to put furniture and appliances and also space between said furniture and appliances so there's room for you to move between them.");
+alert("Whitespace gives elements breathing space. Whitespace resembles space between walls for living room, bathroom, bedroom, and any other room in your house or apartment.");
 
 // HTML //
 const tags = document.querySelector(".tags");
@@ -25,7 +25,7 @@ const nav = document.querySelector(".nav");
 const main = document.querySelector(".main");
 const section = document.querySelector(".section");
 const div = document.querySelector(".div");
-const article = document.querySelector(".articla");
+const article = document.querySelector(".article");
 const figure = document.querySelector(".figure");
 const aside = document.querySelector(".aside");
 const footer = document.querySelector(".footer");
@@ -131,6 +131,7 @@ const flexDirection = document.querySelector(".flex-direction");
 const flexWrap = document.querySelector(".flex-wrap");
 const flexFlow = document.querySelector(".flex-flow");
 
+//alert("Properties are certain selectors in css that determine - at least in box model - your content placement and spacing.");
 //alert("Float allows you to move elements around in box model websites. You can float left or right.");
 //alert("Clear makes elements stack properly if float does not do the job.");
 //alert("Padding is fairly important in box model as it determines how much space is between elements.");
@@ -143,5 +144,11 @@ const flexFlow = document.querySelector(".flex-flow");
 
 // JAVASCRIPT //
 
+// need: array, map, else/if conditional statements for opening up next module when complete button is clicked
 
-
+const designArray = [ "wireframe", "color", "typography", "whitespace" ];
+const htmlArray = [ "tags", "doc", "html", "head", "title", "meta", "link", "body", "header", "nav", "main", "section", "div", "article", "figure", "aside", "footer", "ul", 
+                    "ol", "li", "h1", "h2", "h3", "h4", "h5", "h6", "p", "strong", "em", "br", "img", "span", "a" ];
+const cssArray = [ "selectors", "color", "background", "width", "height", "padding", "margin", "fontFamily", "fontSize", "fontWeight", "lineHeight", "textAlign", 
+                    "textDecoration", "textTransofrm", "border", "borderRadius", "boxSizing", "display" ]
+const boxFlexBoxArray = [ "properties", "float", "clear", "paddingBox", "marginBox", "alignItems", "justifyContent", "flexDirection", "flexWrap", "flexFlow" ]
