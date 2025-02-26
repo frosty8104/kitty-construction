@@ -263,9 +263,14 @@ main {
     border: 5px solid #97694f;
     color: #97694f;
 }
+.wire,
+.colour,
+.space,
+.type,
 #html,
 #css,
-#box-model-flexbox {
+#box-model-flexbox,
+#javascript {
     display: none;
 }
 button {
@@ -277,6 +282,24 @@ button {
     margin: 0 0 1% 46%;
     padding: 1%;
 }
+.box {
+    border: 1px solid #000000;
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+.head {
+    background: #fee8d6;
+    border-radius: 50%;
+    height: 40%;
+    left: 33%;
+    position: absolute;
+    top: 10%;
+    width: 40%;
+}
+/* ears {
+    background: #603311;
+} */
 @media (min-width: 768px) {
     html {
         align-items: center;
