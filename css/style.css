@@ -153,6 +153,41 @@ h2 span:nth-child(16) {
     border: 5px solid #4b0082;
     color: #4b0082;
 }
+/***** FOOTER *****/
+/***** LIGHTS *****/
+.lights {
+    align-items: flex-start;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-between;
+    position: relative;
+    width: 200px;
+}
+.green {
+    background: #49e20e;
+    border-radius: 50%;
+    height: 10%;
+    position: absolute;
+    width: 10%;
+}
+.amber {
+    background: #ffc125;
+    border-radius: 50%;
+    height: 10%;
+    left: 12%;
+    position: absolute;
+    width: 10%;
+}
+.red {
+    background: #ff0000;
+    border-radius: 50%;
+    height: 10%;
+    left: 24%;
+    position: absolute;
+    width: 10%;
+}
 /***** MAIN KITTIES *****/
 main {
     padding: 2% 0;
@@ -406,38 +441,4 @@ button {
         text-transform: uppercase;
     }
     /***** FOOTER *****/
-    /***** LIGHTS *****/
-    .lights {
-        align-items: flex-start;
-        background: none;
-        display: flex;
-        flex-direction: row;
-        height: 200px;
-        justify-content: space-between;
-        position: relative;
-        width: 200px;
-    }
-    .green {
-        background: #49e20e;
-        border-radius: 50%;
-        height: 10%;
-        position: absolute;
-        width: 10%;
-    }
-    .amber {
-        background: #ffc125;
-        border-radius: 50%;
-        height: 10%;
-        left: 12%;
-        position: absolute;
-        width: 10%;
-    }
-    .red {
-        background: #ff0000;
-        border-radius: 50%;
-        height: 10%;
-        left: 24%;
-        position: absolute;
-        width: 10%;
-    }
 }
