@@ -318,7 +318,6 @@ button {
     padding: 1%;
 }
 .box {
-    border: 1px solid #000000;
     height: 100px;
     position: relative;
     width: 100px;
@@ -327,14 +326,148 @@ button {
     background: #fee8d6;
     border-radius: 50%;
     height: 40%;
-    left: 33%;
+    left: 50%;
     position: absolute;
     top: 10%;
     width: 40%;
 }
-/* ears {
+.head-copy {
+    background: #330000;
+    border-radius: 50%;
+    height: 80%;
+    left: 10%;
+    position: absolute;
+    top: 20%;
+    width: 80%;
+}
+.ear-left {
     background: #603311;
-} */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 45%;
+    left: -20%;
+    position: absolute;
+    top: -15%;
+    transform: rotate(-48deg);
+    width: 45%;
+    z-index: -1;
+}
+.inner-ear-left {
+    background: #8b6969;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 30%;
+    left: -20%;
+    position: absolute;
+    top: -15%;
+    transform: rotate(-48deg);
+    width: 30%;
+    z-index: 1;
+}
+.ear-right {
+    background: #603311;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 45%;
+    left: 78%;
+    position: absolute;
+    top: -15%;
+    transform: rotate(48deg);
+    width: 45%;
+    z-index: -1;
+}
+.inner-ear-right {
+    background: #8b6969;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 30%;
+    left: 78%;
+    position: absolute;
+    top: -15%;
+    transform: rotate(48deg);
+    width: 30%;
+    z-index: 1;
+}
+.eye-left {
+    background: #aeeeee;
+    border-radius: 50%;
+    height: 20%;
+    left: 20%;
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    z-index: 1;
+}
+.pupil-left {
+    background: #000000;
+    border-radius: 50%;
+    height: 50%;
+    left: 25%;
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    z-index: 2;
+}
+.eye-right {
+    background: #aeeeee;
+    border-radius: 50%;
+    height: 20%;
+    left: 60%;
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    z-index: 1;
+}
+.pupil-right {
+    background: #000000;
+    border-radius: 50%;
+    height: 50%;
+    left: 30%;
+    position: absolute;
+    top: 20%;
+    width: 50%;
+    z-index: 2;
+}
+.nose {
+    background: #603311;
+    border-radius: 50%;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    height: 20%;
+    left: 42%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(180deg);
+    width: 20%;
+    z-index: 1;
+}
+.body {
+    background: #fee8d6;
+    border-radius: 50%;
+    height: 45%;
+    left: 30%;
+    position: absolute;
+    top: 40%;
+    width: 45%;
+    z-index: -2;
+}
+.body-copy {
+    background: #fee8d6;
+    border-radius: 50%;
+    height: 110%;
+    left: -60%;
+    position: absolute;
+    top: 70%;
+    width: 110%;
+    z-index: -2;
+}
+.fore-leg-left {
+
+}
+.forepaw-left {
+
+}
+.rear-leg-left {
+
+}
+.rear-paw-left {
+
+}
 @media (min-width: 768px) {
     html {
         align-items: center;
