@@ -53,11 +53,14 @@ nav ul li {
     text-align: center;
 }
 nav ul li a {
-    color: #0000ff;
+    color: #000080;
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #228b22;
 }
 header h1 {
     font-size: 1em;
@@ -309,7 +312,7 @@ main {
     display: none;
 }
 button {
-    background: #0000ff;
+    background: #000080;
     border: 5px inset #808080;
     border-radius: 25%;
     color: #ffffff;
@@ -593,7 +596,7 @@ button {
         width: auto;
     }
     nav ul li a {
-        color: #0000ff;
+        color: #000080;
         font-size: 1.25em;
         font-weight: bold;
         text-decoration: none;
