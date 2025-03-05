@@ -8,7 +8,7 @@ html {
     justify-content: center;
 }
 body {
-    background: #fff;
+    background: #ffffff;
     color: #000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -301,7 +301,6 @@ main {
     border: 5px solid #97694f;
     color: #97694f;
 }
-.wire,
 .colour,
 .space,
 .type,
@@ -322,9 +321,9 @@ button {
 }
 /***** CSS-CAT *****/
 .box-kitty {
-    height: 25px;
+    height: 100px;
     position: relative;
-    width: 25px;
+    width: 100px;
 }
 .head {
     background: #fee8d6;
@@ -376,7 +375,7 @@ button {
     z-index: -1;
 }
 .inner-ear-right {
-    background: #8b6969;;
+    background: #8b6969;
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     height: 70%;
     left: 20%;
@@ -456,6 +455,104 @@ button {
     width: 110%;
     z-index: -2;
 }
+.tail {
+    background: #603311;
+    border-radius: 50%;
+    height: 30%;
+    left: -100%;
+    position: absolute;
+    top: 110%;
+    transform: rotate(-10deg);
+    width: 50%;
+}
+.tail span:nth-child(1) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: rotate(15deg) translateX(-25%);
+    width: 100%; 
+} 
+.tail span:nth-child(2) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: rotate(25deg) translate(-40%);
+    width: 100%; 
+}
+.tail span:nth-child(3) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: rotate(30deg) translate(-55%);
+    width: 100%; 
+}
+/* .tail span:nth-child(4) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: rotate(10deg);
+    width: 100%; 
+}
+.tail span:nth-child(5) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(6) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(7) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(8) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(9) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(10) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}
+.tail span:nth-child(11) {
+    background: #603311; 
+    border-radius: 50%; 
+    height: 100%; 
+    position: absolute; 
+    transform: ;
+    width: 100%; 
+}*/
 .torso {
     background: #fee8d6;
     border-radius: 50%;
