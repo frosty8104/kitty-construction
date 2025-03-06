@@ -1,4 +1,17 @@
-alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
+const theme = document.querySelector("h1");
+const kittyConstruct = document.querySelector(".kitty-construct");
+const pupDev = document.querySelector(".pup-dev");
+const equineFound = document.querySelector(".equine-found");
+
+theme.addEventListener("change", function() {
+    if (pupDev.classList.contains("show")) {
+        pupDev.classList.add("pup-dev");
+        alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
+    } else {
+        kittyConstruct.classList.add("kitty-construct");
+        alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
+    }
+});
 
 // DESIGN //
 const wireframe = document.querySelector(".wire");
