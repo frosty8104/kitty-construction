@@ -319,6 +319,9 @@ button {
     margin: 0 0 1% 46%;
     padding: 1%;
 }
+form {
+    margin-bottom: 2%;
+}
 /***** CSS-CAT *****/
 .box-kitty {
     height: 100px;

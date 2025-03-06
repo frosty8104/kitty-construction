@@ -4,11 +4,12 @@ const pupDev = document.querySelector(".pup-dev");
 const equineFound = document.querySelector(".equine-found");
 
 theme.addEventListener("change", function() {
-    if (pupDev.classList.contains("show")) {
-        pupDev.classList.add("pup-dev");
+    if (theme.classList.contains("kittyConstruct")) {
+        theme.classList.remove("kittyConstruct");
+        theme.classList.add("pupDev");
         alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
     } else {
-        kittyConstruct.classList.add("kitty-construct");
+        theme.classList.add("kittyConstruct");
         alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
     }
 });
