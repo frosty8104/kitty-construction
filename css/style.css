@@ -544,6 +544,138 @@ form {
     width: 30%;
     z-index: -3;
 }
+/***** PUP DEV *****/
+main {
+    padding: 2% 0;
+}
+#design,
+#html,
+#css,
+#box-model-flexbox,
+#javascript {
+    width: 80%;
+}
+#design h3,
+#html h3,
+#css h3,
+#box-model-flexbox h3,
+#javascript h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#design h3 span,
+#html h3 span,
+#css h3 span,
+#box-model-flexbox h3 span,
+#javascript h3 span {
+    border: 5px solid #000;
+    margin: 0 1%;
+    padding: 0.5% 1%;
+}
+#design h3 span:nth-child(2),
+#html h3 span:nth-child(2),
+#css h3 span:nth-child(2),
+#box-model-flexbox h3 span:nth-child(2),
+#javascript h3 span:nth-child(2),
+#design h3 span:nth-child(7),
+#html h3 span:nth-child(7),
+#css h3 span:nth-child(7),
+#box-model-flexbox h3 span:nth-child(7),
+#javascript h3 span:nth-child(7),
+#design h3 span:nth-child(12),
+#html h3 span:nth-child(12),
+#css h3 span:nth-child(12),
+#box-model-flexbox h3 span:nth-child(15),
+#javascript h3 span:nth-child(15),
+#box-model-flexbox h3 span:nth-child(19),
+#javascript h3 span:nth-child(19),
+#box-model-flexbox h3 span:nth-child(24) {
+    border: 5px solid #808080;
+    color: #808080;
+}
+#design h3 span:nth-child(3),
+#html h3 span:nth-child(3),
+#css h3 span:nth-child(3),
+#box-model-flexbox h3 span:nth-child(3),
+#javascript h3 span:nth-child(3),
+#design h3 span:nth-child(8),
+#html h3 span:nth-child(8),
+#css h3 span:nth-child(8),
+#box-model-flexbox h3 span:nth-child(8),
+#javascript h3 span:nth-child(8),
+#design h3 span:nth-child(13),
+#html h3 span:nth-child(13),
+#box-model-flexbox h3 span:nth-child(16),
+#javascript h3 span:nth-child(16),
+#box-model-flexbox h3 span:nth-child(20),
+#javascript h3 span:nth-child(20),
+#box-model-flexbox h3 span:nth-child(25) {
+    border: 5px solid #660000;
+    color: #660000;
+}
+#design h3 span:nth-child(4),
+#html h3 span:nth-child(4),
+#css h3 span:nth-child(4),
+#box-model-flexbox h3 span:nth-child(4),
+#javascript h3 span:nth-child(4),
+#design h3 span:nth-child(9),
+#html h3 span:nth-child(9),
+#css h3 span:nth-child(9),
+#box-model-flexbox h3 span:nth-child(9),
+#javascript h3 span:nth-child(12),
+#design h3 span:nth-child(14),
+#html h3 span:nth-child(14),
+#css h3 span:nth-child(14),
+#box-model-flexbox h3 span:nth-child(17),
+#javascript h3 span:nth-child(17),
+#box-model-flexbox h3 span:nth-child(21),
+#javascript h3 span:nth-child(21),
+#box-model-flexbox h3 span:nth-child(26) {
+    border: 5px solid #7b3f00;
+    color: #7b3f00;
+}
+#design h3 span:nth-child(5),
+#html h3 span:nth-child(5),
+#css h3 span:nth-child(5),
+#box-model-flexbox h3 span:nth-child(5),
+#javascript h3 span:nth-child(5),
+#design h3 span:nth-child(10),
+#html h3 span:nth-child(10),
+#css h3 span:nth-child(10),
+#box-model-flexbox h3 span:nth-child(10),
+#javascript h3 span:nth-child(13),
+#box-model-flexbox h3 span:nth-child(18),
+#javascript h3 span:nth-child(18),
+#box-model-flexbox h3 span:nth-child(22),
+#box-model-flexbox h3 span:nth-child(27) {
+    border: 5px solid #97694f;
+    color: #97694f;
+}
+.colour,
+.space,
+.type,
+#html,
+#css,
+#box-model-flexbox,
+#javascript {
+    display: none;
+}
+button {
+    background: #000080;
+    border: 5px inset #808080;
+    border-radius: 25%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 0 1% 46%;
+    padding: 1%;
+}
+form {
+    margin-bottom: 2%;
+}
+/***** EQUINE FOUNDATION *****/
 @media (min-width: 768px) {
     html {
         align-items: center;
