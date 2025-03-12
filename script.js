@@ -1,16 +1,15 @@
-const theme = document.querySelector("h1");
-const kittyConstruct = document.querySelector(".kitty-construct");
-const pupDev = document.querySelector(".pup-dev");
-const equineFound = document.querySelector(".equine-found");
+// THEME SELECTION //
+const selectElement = document.querySelector("#selAnimal");
 
-theme.addEventListener("change", function() {
-    if (theme.classList.contains("kittyConstruct")) {
-        theme.classList.remove("kittyConstruct");
-        theme.classList.add("pupDev");
-        alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
-    } else {
-        theme.classList.add("kittyConstruct");
-        alert("Hello! Welcome to your web design course. I'm Frosty, a web designer and developer that created this course to help aspiring web designers, developers, and graphic designers to get started!");
+selectElement.addEventListener("change", function() {
+    document.body.classList.remove("kitty-construct", "pup-dev", "equine-found");
+    const selectedValue = selectElement.value;
+    if (selectedValue === "kitty") {
+        document.value.classList.add("kitty-construct");
+    } else if (selectedValue === "pup") {
+        document.value.classList.add("pup-dev");
+    } else if (selectedValue === "equine") {
+        document.value.classList.add("equine-found");
     }
 });
 
