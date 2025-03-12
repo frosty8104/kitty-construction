@@ -460,19 +460,16 @@
         width: 110%;
         z-index: -2;
     }
-    /* .tail {
+   /* .tail {
         background: transparent;
         border: 1px solid #603311;
-        height: 30%;
+        border-radius: 25%;
+        height: 20%;
         left: -70%;
         position: absolute;
-        top: 135%;
+        top: 145%;
         width: 100%;
         z-index: 1;
-    }
-    .tail::before {
-        background: transparent;
-        border-radius: 50%;
     } */
     .torso {
         background: #fee8d6;
