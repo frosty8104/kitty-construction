@@ -512,6 +512,16 @@
         width: 30%;
         z-index: -3;
     }
+    .tail {
+        background: #603311;
+        border-radius: 25%;
+        height: 20%;
+        left: -70%;
+        position: absolute;
+        top: 150%;
+        width: 100%;
+        z-index: 1;
+    }
     /***** PUP DEV *****/
     body.pup-dev .pup-dev h1 {
         font-size: 1em;
