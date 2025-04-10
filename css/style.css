@@ -203,9 +203,6 @@
     #javascript {
         width: 90%;
     }
-    .colour,
-    .space,
-    .type,
     #html,
     #css,
     #box-model-flexbox,
@@ -325,7 +322,7 @@
         margin-bottom: 2%;
     }
     /***** CSS-CAT *****/
-    .box-kitty {
+    .box {
         height: 100px;
         position: relative;
         width: 100px;
@@ -460,17 +457,6 @@
         width: 110%;
         z-index: -2;
     }
-   /* .tail {
-        background: transparent;
-        border: 1px solid #603311;
-        border-radius: 25%;
-        height: 20%;
-        left: -70%;
-        position: absolute;
-        top: 145%;
-        width: 100%;
-        z-index: 1;
-    } */
     .torso {
         background: #fee8d6;
         border-radius: 50%;
@@ -514,7 +500,6 @@
     }
     .tail {
         background: #603311;
-        border-radius: 25%;
         height: 20%;
         left: -70%;
         position: absolute;
