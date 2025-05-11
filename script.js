@@ -1,18 +1,3 @@
-// THEME SELECTION //
-const selectElement = document.querySelector("#selAnimal");
-
-selectElement.addEventListener("change", function() {
-    document.body.classList.remove("kitty-construct", "pup-dev", "equine-found");
-    const selectedValue = selectElement.value;
-    if (selectedValue === "kitty") {
-        document.value.classList.add("kitty-construct");
-    } else if (selectedValue === "pup") {
-        document.value.classList.add("pup-dev");
-    } else if (selectedValue === "equine") {
-        document.value.classList.add("equine-found");
-    }
-});
-
 // DESIGN //
 const wireframe = document.querySelector(".wire");
 const colour = document.querySelector(".colour");
